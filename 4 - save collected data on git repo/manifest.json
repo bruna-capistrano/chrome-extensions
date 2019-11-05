@@ -1,0 +1,21 @@
+{
+  "name" : "Extension 4",
+  "version" : "1.0",
+  "description": "WebMedia 2019 - Short Course 2 - Extension 4.",
+  "permissions" : ["tabs", "storage", "identity", "identity.email"],
+  "browser_action" : {
+    "default_popup": "popup.html",
+    "default_icon" : "icon4.png"
+  },
+	"content_scripts": [
+	    {
+	      "matches": ["https://www.google.com/*"],
+      	"js": ["content.js"]
+	    }
+	  ],
+  "background" : {
+    "scripts" : ["background.js", "github.js"],
+    "persistent" : false
+  },
+	"manifest_version" : 2
+}

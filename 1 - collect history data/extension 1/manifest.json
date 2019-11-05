@@ -1,0 +1,11 @@
+{
+  "name": "Extension 1 ",
+  "description": "WebMedia 2019 - Short Course 2 - Extension 1.",
+  "version": "1.0",
+  "permissions": ["history"],
+  "browser_action": {
+    "default_popup": "urls.html",
+    "default_icon": "icon1.png"
+  },
+  "manifest_version": 2
+}

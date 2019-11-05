@@ -1,0 +1,12 @@
+{
+  "name": "Extension 3",
+  "version": "1.0",
+  "description": "WebMedia 2019 - Short Course 2 - Extension 3.",
+  "permissions": ["storage", "identity", "identity.email"],
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon3.png"
+  },
+  "manifest_version": 2
+}
